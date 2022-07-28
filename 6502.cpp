@@ -2,7 +2,7 @@
 #include <stdlib.h> 
 
 
-//this branche i will comment the code and sclarify it 
+//in this branche i will comment the code and clarify it 
 using Byte = unsigned char ; 
 
 using Word = unsigned short ;
@@ -82,10 +82,10 @@ struct Cpu
                     Zero_flag = (Accumulator_register == 0) ; 
                     Negative_flag = (Accumulator_register & 0b1000000) ;
                 } break;
-                // default: 
-                // {
-                //     printf("Instruction not handled %d " ,Instruction ) ; 
-                // } break ; 
+                default: 
+                {
+                    printf("Instruction not handled %d " ,Instruction ) ; 
+                } break ; 
             }
         }
     }
