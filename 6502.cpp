@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h> 
 
+
+//this branche i will comment the code and sclarify it 
 using Byte = unsigned char ; 
+
 using Word = unsigned short ;
+
 using u32 = unsigned int ; 
 
 
