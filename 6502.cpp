@@ -12,7 +12,7 @@ using u32 = unsigned int ;
 
 struct Memory 
 { 
-    static constexpr u32 MAX_MEM = 1024*64 ;
+    static constexpr u32 MAX_MEM = 1024*64;
     Byte Data[MAX_MEM] ;
 
     void initialze() 
@@ -22,7 +22,7 @@ struct Memory
 
     Byte operator[](u32 adress) const 
         {
-            // assert here adress is < Max_Mem 
+            // Assert here adress is < Max_Mem 
             return Data[adress] ; 
 
         }
